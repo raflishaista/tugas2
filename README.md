@@ -15,6 +15,7 @@ Di dalam direktori main, urls.py dibuat, dan didalamnya ditambahkan kode untuk b
 Sebelumnya, saya push dahulu proyek kepada github, kemudian saya hubungkan di Adaptable. Untuk deployment, saya memilih Python App Template, PostgreSQL, dan Python 3.10. Kemudian, ketika sudah sukses dideploy dan link sudah diberikan, link tersebut memerlukan /main di akhir url tersebut, untuk mengakses app main ini.
 
 Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html.
+<img width="468" alt="Screenshot_5" src="https://github.com/raflishaista/tugas2/assets/124919851/91088682-3aa5-48a0-bd83-5a34d90e068c">
 
 urls.py akan memajukan request pada view berupa views.py yang sesuai, kemudian view akan menerima web request tersebut dan memberikan web response kepada client. views.py dapat menulis atau membaca data ke/dari penyimpanan data dari aplikasi, yaitu models.py. Berkas html, atau template merupakan bagian yang akan dipajang kepada client, yang berupa web response yang diberikan views.py.
 
