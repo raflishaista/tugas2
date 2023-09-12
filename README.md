@@ -1,16 +1,23 @@
 Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
+
     Membuat sebuah proyek Django baru.
 Saya membuat suatu virtual environment, dan menyiapkan dependencies-dependencies yang dibutuhkan.
+
     Membuat aplikasi dengan nama main
 Dengan membuat aplikasi baru bernama main dengan command seperti startapp, dan dengan menambahkan konfigurasi MVT, serta mendaftarkan aplikasi ke proyek
+
     Melakukan routing pada proyek agar dapat menjalankan aplikasi main
 Di dalam direktori proyek, urls.py dibuat, dan didalamnya ditambahkan kode untuk berbagai fungsi, seperti mengatur rute URL.
+
     Membuat model pada aplikasi main dengan nama Item dan memiliki atribut wajib sebagai berikut.
 Membuat suatu file bernama models.py, dan mengisinya dengan nama class item serta atribut-atribut name,amount,dan description didalamnya, serta mengassign field yang sesuai.
+
     Membuat sebuah fungsi pada views.py untuk dikembalikan ke dalam sebuah template HTML yang menampilkan nama aplikasi serta nama dan kelas kamu.
 Sesuai dengan variabel di models, setiap variabel diberi value yang sesuai dengan field
+
     Membuat sebuah routing pada urls.py aplikasi main untuk memetakan fungsi yang telah dibuat pada views.py.
 Di dalam direktori main, urls.py dibuat, dan didalamnya ditambahkan kode untuk berbagai fungsi, seperti mendefinsikan URL.
+
     Melakukan deployment ke Adaptable terhadap aplikasi yang sudah dibuat sehingga nantinya dapat diakses oleh teman-temanmu melalui Internet.
 Sebelumnya, saya push dahulu proyek kepada github, kemudian saya hubungkan di Adaptable. Untuk deployment, saya memilih Python App Template, PostgreSQL, dan Python 3.10. Kemudian, ketika sudah sukses dideploy dan link sudah diberikan, link tersebut memerlukan /main di akhir url tersebut, untuk mengakses app main ini.
 
